@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Startup</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+  	<!-- All three elements are in container -->
+<!-- 
+  	This container uses bootstrap classes, d-flex initialises flexbox
+  	align-items as you know aligns items vertically , h-100 makes this container take up whole screen. -->
+  	<div class="container d-flex align-items-center h-100">
+
+  	<!-- row is a bootstrap class that makes things come together in a row. But since col class is set to 12, they actually go to the next row because 12 is max. -->
+  	  <div class="row">
+
+  	  	<!-- header tag isn't absolutely necessary because it has only a single child element -->
+  	  	<header class="col-12 text-center">
+	  		<h1> THE BIGGEST STARTUP EVENT OF THE YEAR </h1>
+	  	</header>
+
+	  	<!-- for spacing -->
+	  	<div class="buffer col-12"></div>
+
+	  	<!-- section is important because we want to make the guys inside of them as center, otherwise hr starts taking full space and the button too, text-center is basically justify content, and col-12 make these people take up full column space-->
+	  	<section class="col-12 text-center">
+		  	<hr>
+      <a href="https://mailchi.mp/9a450120ff86/startup">
+			   <button type="button" class="btn btn-primary btn-xl">FIND OUT MORE</button>
+      </a>
+	  	</section>
+	  </div>
+  	</div>
+
+  </body>
+</html>
